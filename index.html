@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // If deployed on GitHub Pages root without /docs selected in Settings, automatically forward to /docs/
+      if (typeof window !== 'undefined' && window.location.hostname.endsWith('github.io') && !window.location.pathname.includes('/docs')) {
+        window.location.replace(window.location.pathname.replace(/\/?$/, '/docs/'));
+      }
+    </script>
     <title>Squash Cheesy Balls - Crispy Outside, Cheesy Inside | ESSU Borongan</title>
     <meta name="description" content="Official website and business showcase for Squash Cheesy Balls, an entrepreneurial food venture by BCSC-2A students of Eastern Samar State University (ESSU) – Borongan." />
     <meta property="og:title" content="Squash Cheesy Balls - Crispy Outside, Cheesy Inside" />
