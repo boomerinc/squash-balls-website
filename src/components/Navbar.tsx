@@ -21,14 +21,14 @@ export default function Navbar({ onOpenOrderModal, onOpenPdfModal }: NavbarProps
 
   const navLinks = [
     { label: 'Home', href: '#home' },
-    { label: 'Our Product', href: '#product' },
+    { label: 'Products', href: '#product' },
+    { label: 'Ingredients', href: '#ingredients' },
+    { label: 'Interface', href: '#interface' },
     { label: 'Documentation', href: '#documentation' },
-    { label: 'Behind the Scenes', href: '#behind-scenes' },
-    { label: 'Our Team', href: '#team' },
-    { label: 'Structure', href: '#structure' },
+    { label: 'Team', href: '#team' },
     { label: 'Financials', href: '#financial' },
-    { label: 'Permits', href: '#permits' },
-    { label: 'About', href: '#about' },
+    { label: 'About Us', href: '#about' },
+    { label: 'Contact Us', href: '#contact' },
   ];
 
   return (

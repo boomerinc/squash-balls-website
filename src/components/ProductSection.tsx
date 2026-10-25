@@ -165,12 +165,12 @@ export default function ProductSection({ onOpenOrderModal, onOpenImageModal }: P
                   <span>Order Now (₱10/pc)</span>
                 </button>
 
-                <button
-                  onClick={() => setShowIngredientsModal(true)}
+                <a
+                  href="#ingredients"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-stone-100 hover:bg-stone-200 text-stone-800 px-5 py-3 rounded-xl font-semibold text-sm transition-colors cursor-pointer"
                 >
-                  <span>View All 18 Daily Ingredients</span>
-                </button>
+                  <span>Explore Ingredients & Nutrition →</span>
+                </a>
               </div>
 
             </div>

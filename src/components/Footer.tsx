@@ -69,14 +69,16 @@ export default function Footer({ onOpenPdfModal, onOpenOrderModal }: FooterProps
             </h4>
             <ul className="space-y-2 text-xs text-stone-400">
               <li><a href="#home" className="hover:text-amber-400 transition-colors">Home</a></li>
-              <li><a href="#product" className="hover:text-amber-400 transition-colors">Our Product</a></li>
+              <li><a href="#product" className="hover:text-amber-400 transition-colors">Products</a></li>
+              <li><a href="#ingredients" className="hover:text-amber-400 transition-colors">Ingredients & Nutrition</a></li>
+              <li><a href="#interface" className="hover:text-amber-400 transition-colors">Website Interface</a></li>
               <li><a href="#documentation" className="hover:text-amber-400 transition-colors">Documentation</a></li>
-              <li><a href="#behind-scenes" className="hover:text-amber-400 transition-colors">Behind the Scenes</a></li>
               <li><a href="#team" className="hover:text-amber-400 transition-colors">Meet the Team</a></li>
               <li><a href="#structure" className="hover:text-amber-400 transition-colors">Management Structure</a></li>
-              <li><a href="#financial" className="hover:text-amber-400 transition-colors">Financials</a></li>
+              <li><a href="#financial" className="hover:text-amber-400 transition-colors">Financials & Simulator</a></li>
               <li><a href="#permits" className="hover:text-amber-400 transition-colors">Business Permits</a></li>
-              <li><a href="#about" className="hover:text-amber-400 transition-colors">About & SWOT</a></li>
+              <li><a href="#about" className="hover:text-amber-400 transition-colors">About Us</a></li>
+              <li><a href="#contact" className="hover:text-amber-400 transition-colors">Contact Us</a></li>
             </ul>
           </div>
 

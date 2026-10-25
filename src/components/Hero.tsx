@@ -79,6 +79,14 @@ export default function Hero({ onOpenOrderModal, onOpenPdfModal, onOpenImageModa
               </button>
 
               <a
+                href="#interface"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 px-4 py-3.5 rounded-xl font-bold text-xs sm:text-sm shadow-xs transition-colors"
+              >
+                <Sparkles className="w-4 h-4 text-amber-700" />
+                <span>Website Interface</span>
+              </a>
+
+              <a
                 href="#financial"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-amber-50 text-stone-700 hover:text-stone-900 border border-stone-200 px-5 py-3.5 rounded-xl font-semibold text-sm shadow-xs transition-colors"
               >
