@@ -4,12 +4,19 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  // In GitHub Actions, automatically set base to the repository subpath (e.g. /squash-balls-website/)
+  // In local/AI Studio preview, use relative './'
+  const repoName = process.env.GITHUB_REPOSITORY
+    ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/`
+    : '/squash-balls-website/';
+  const base = process.env.GITHUB_ACTIONS ? repoName : './';
+
   return {
-    base: './',
+    base,
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname ?? '.', '.'),
       },
     },
     server: {
